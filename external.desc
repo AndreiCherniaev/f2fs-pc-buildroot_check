@@ -1,0 +1,3 @@
+name: f2fs_pc
+desc: Linux system with the root filesystem on f2fs
+
