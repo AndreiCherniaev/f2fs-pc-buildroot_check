@@ -8,8 +8,6 @@ wget https://buildroot.org/downloads/buildroot-2025.08.2.tar.gz
 
 mkdir "../buildroot" && tar xvf buildroot-2025.08.2.tar.gz --strip-components=1 -C "../buildroot"
 
-mkdir -p "../buildroot/board/pc/patches"
-
 cd "../buildroot"
 
 make BR2_EXTERNAL="$TREE_DIR" f2fs_pc_bios_defconfig
