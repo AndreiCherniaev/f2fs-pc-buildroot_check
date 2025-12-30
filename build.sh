@@ -4,7 +4,7 @@ set -e
 
 TREE_DIR="$(pwd)"
 
-wget https://buildroot.org/downloads/buildroot-2025.08.2.tar.gz
+wcurl https://buildroot.org/downloads/buildroot-2025.08.2.tar.gz
 
 mkdir "../buildroot" && tar xvf buildroot-2025.08.2.tar.gz --strip-components=1 -C "../buildroot"
 
